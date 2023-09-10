@@ -1,0 +1,90 @@
+.cart-container {
+  display: flex;
+  justify-content: center;
+  min-height: 75vh;
+}
+.container-bill {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end end;
+}
+.para {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+.bill-container {
+  height: 150px;
+  border-radius: 6px;
+  background-color: white;
+  color: black;
+  box-shadow: 2px 2px 2px 2px gainsboro;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  min-width: 100px;
+  max-width: 200px;
+  padding: 5px;
+}
+
+.checkout-button {
+  color: white;
+  width: 100px;
+  height: 40px;
+  background-color: #3b82f6;
+  border-width: 0px;
+  margin-top: 8px;
+  padding: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-container {
+    min-height: 90vh;
+  }
+}
+.heading-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.remove-buttons {
+  color: #0b69ff;
+  border-width: 0px;
+  width: 100px;
+  height: 30px;
+  margin-top: 50px;
+  font-variant: 'Roboto';
+  font: 16px;
+  font-weight: 2px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.cart-content-container {
+  display: flex;
+  flex-direction: column;
+
+  width: 90%;
+  max-width: 1110px;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-content-container {
+    width: 80%;
+    max-width: 1110px;
+  }
+}
+
+.cart-heading {
+  color: #3e4c59;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-heading {
+    font-size: 48px;
+  }
+}
